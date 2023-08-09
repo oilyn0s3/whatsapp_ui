@@ -1,18 +1,30 @@
 import 'package:flutter/material.dart';
+import 'layouts/responsive_layout.dart';
+import 'screens/mobile.dart';
+import 'screens/web.dart';
+import 'components/colors.dart';
 
 void main() {
   runApp(const MainApp());
 }
+
+final theme = ThemeData.dark();
 
 class MainApp extends StatelessWidget {
   const MainApp({super.key});
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
-      home: Scaffold(
-        body: Center(
-          child: Text('Hello World!'),
+    return MaterialApp(
+      title: "Whatsapp",
+      theme: theme.copyWith(
+          colorScheme: theme.colorScheme.copyWith(
+        background: backgroundColor,
+      )),
+      home: const Scaffold(
+        body: ResponsiveLayout(
+          mobileLayout: MobileLayout(),
+          webLayout: WebLayout(),
         ),
       ),
     );

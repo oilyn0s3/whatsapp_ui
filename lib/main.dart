@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'layouts/responsive_layout.dart';
 import 'screens/mobile.dart';
 import 'screens/web.dart';
-import 'components/colors.dart';
+import 'const/colors.dart';
 
 void main() {
   runApp(const MainApp());
@@ -18,9 +18,11 @@ class MainApp extends StatelessWidget {
     return MaterialApp(
       title: "Whatsapp",
       theme: theme.copyWith(
-          colorScheme: theme.colorScheme.copyWith(
-        background: backgroundColor,
-      )),
+        colorScheme: theme.colorScheme.copyWith(
+          background: backgroundColor,
+        ),
+        scaffoldBackgroundColor: backgroundColor,
+      ),
       home: const Scaffold(
         body: ResponsiveLayout(
           mobileLayout: MobileLayout(),

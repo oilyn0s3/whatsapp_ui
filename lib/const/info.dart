@@ -1,6 +1,6 @@
-const info = [
+const info = <Map<String, String>>[
   {
-    'name': 'Rivaan Ranawat',
+    'name': 'Elon Sucks',
     'message': 'Hey, how are you doing?',
     'time': '3:53 pm',
     'profilePic':
@@ -14,21 +14,21 @@ const info = [
         'https://www.socialketchup.in/wp-content/uploads/2020/05/fi-vill-JOHN-DOE.jpg',
   },
   {
-    'name': 'Naman Ranawat',
+    'name': 'Poop Fart',
     'message': 'Hello, I want to sleep.',
     'time': '1:03 pm',
     'profilePic':
         'https://media.cntraveler.com/photos/60596b398f4452dac88c59f8/16:9/w_3999,h_2249,c_limit/MtFuji-GettyImages-959111140.jpg',
   },
   {
-    'name': 'Dad',
+    'name': 'Dad ++',
     'message': 'Call me, have some work',
     'time': '12:06 pm',
     'profilePic':
         'https://pbs.twimg.com/profile_images/1419974913260232732/Cy_CUavB.jpg',
   },
   {
-    'name': 'Mom',
+    'name': 'Mom ++',
     'message': 'You ate food?',
     'time': '10:00 am',
     'profilePic':
@@ -101,19 +101,9 @@ const messages = [
     "text": "Looks great to me!",
     "time": "11:15 am",
   },
-  
-
   {"isMe": false, "text": "Thanks bro!", "time": "11:17 am"},
-  {
-    "isMe": false,
-    "text": "Did you subscribe?",
-    "time": "11:16 am"
-  },
-  {
-    "isMe": true,
-    "text": "Yes, surely bro!",
-    "time": "11:17 am"
-  },
+  {"isMe": false, "text": "Did you subscribe?", "time": "11:16 am"},
+  {"isMe": true, "text": "Yes, surely bro!", "time": "11:17 am"},
   {
     "isMe": false,
     "text": "Cool, did you like the content?",

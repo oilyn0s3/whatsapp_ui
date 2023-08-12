@@ -1,7 +1,7 @@
 const info = <Map<String, String>>[
   {
-    'name': 'Elon Sucks',
-    'message': 'Hey, how are you doing?',
+    'name': 'Elon Sucks Very Very',
+    'message': "Hey, how are you doing? I'm thinking to buy a parrot.",
     'time': '3:53 pm',
     'profilePic':
         'https://upload.wikimedia.org/wikipedia/commons/8/85/Elon_Musk_Royal_Society_%28crop1%29.jpg',
@@ -49,8 +49,8 @@ const info = <Map<String, String>>[
         'https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8cmFuZG9tJTIwcGVvcGxlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=900&q=60',
   },
   {
-    'name': 'Joseph',
-    'message': 'I am from International Olym...',
+    'name': 'Joseph Some Very Long Ass Name',
+    'message': 'I am from International Olympic Games here to win your heart.',
     'time': '6:02 am',
     'profilePic':
         'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8cmFuZG9tJTIwcGVvcGxlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=900&q=60',
